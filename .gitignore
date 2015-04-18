@@ -1,0 +1,8 @@
+*.class
+*.xml
+hs_err_pid*
+build*
+/misc
+.classpath
+.project
+bin/
