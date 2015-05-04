@@ -1,4 +1,4 @@
-package org.usfirst.frc.team4131.lib.subsystems;
+package org.usfirst.frc.team4131.lib.components;
 
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Subsystem;

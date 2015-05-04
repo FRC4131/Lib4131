@@ -10,5 +10,5 @@ public class LogCommand extends InstantCommand{
 		this.logger = logger;
 		this.message = message;
 	}
-	@Override protected void execute(){super.execute(); Robot.log(logger, message);}
+	@Override public void activate(){Robot.log(logger, message);}
 }

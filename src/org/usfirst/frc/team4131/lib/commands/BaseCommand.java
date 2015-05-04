@@ -1,7 +1,7 @@
 package org.usfirst.frc.team4131.lib.commands;
 
 import org.usfirst.frc.team4131.lib.Robot;
-import org.usfirst.frc.team4131.lib.subsystems.Component;
+import org.usfirst.frc.team4131.lib.components.Component;
 
 import edu.wpi.first.wpilibj.command.Command;
 
