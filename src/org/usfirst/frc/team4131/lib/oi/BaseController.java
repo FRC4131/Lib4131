@@ -28,7 +28,7 @@ public abstract class BaseController extends Joystick{
 	public ControllerButton button(int button){return new ControllerButton(button);}
 	public AxisButton axis(int axis, double threshold, int condition){return new AxisButton(axis, threshold, condition);}
 	//Base class for button subclasses
-	protected abstract class BaseButton extends Button{
+	public abstract class BaseButton extends Button{
 		/**
 		 * Register the given command to run when the condition is first passed.
 		 * {@link BaseCommand#start() start()} is called when the condition is passed, and the command is left to run.
